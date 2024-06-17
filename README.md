@@ -26,7 +26,7 @@ A Simple script that is used to install and run all the tools that Cappricio Sec
        ```
      - Open your telegram and search for [`@CappricioSecuritiesTools_bot`](https://web.telegram.org/k/#@CappricioSecuritiesTools_bot) and click start
 
-   - To run all the tools
+   - To run all the tools (Make sure you already have live.txt in your current directory)
      - ```bash
          ./cve-scan.sh
        ```
