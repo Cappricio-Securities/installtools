@@ -9,16 +9,28 @@ A Simple script that is used to install and run all the tools that Cappricio Sec
      - ```bash
           git clone https://github.com/Cappricio-Securities/installtools.git 
         ```
-   - Run the below command to check
-     - `chmod +x install.sh`
-
+     - ```bash
+          cd installtools 
+        ```
+   - Run the below command to give executable permission
+     - ```bash
+         chmod +x install.sh cve-scan.sh
+       ```
+   - Run the below command to give executable permission
+     - ```bash
+         ./install.sh
+       ```
+   - To run all the tools
+     - ```bash
+         ./cve-scan.sh
+       ```
 ## Configurations 
 2. We integrated with the Telegram API to receive instant notifications for vulnerability detection.
    
    - For Getting Instant Telegram Notification
      - ```bash
           crlfi --chatid <YourTelegramChatID>
-        ```
+       ```
    - Open your telegram and search for [`@CappricioSecuritiesTools_bot`](https://web.telegram.org/k/#@CappricioSecuritiesTools_bot) and click start
 
 ## Usages 
@@ -28,7 +40,7 @@ A Simple script that is used to install and run all the tools that Cappricio Sec
      - ```bash
           crlfi -u http://example.com 
         ```
-   - To Check List of URL 
+   - To Check the List of URL 
       - ```bash
           crlfi -i urls.txt 
         ```
