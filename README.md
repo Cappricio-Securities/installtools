@@ -20,39 +20,18 @@ A Simple script that is used to install and run all the tools that Cappricio Sec
      - ```bash
          ./install.sh
        ```
+    - For Getting Instant Telegram Notification
+     - ```bash
+          crlfi --chatid <YourTelegramChatID>
+       ```
+     - Open your telegram and search for [`@CappricioSecuritiesTools_bot`](https://web.telegram.org/k/#@CappricioSecuritiesTools_bot) and click start
+
    - To run all the tools
      - ```bash
          ./cve-scan.sh
        ```
-## Configurations 
-2. We integrated with the Telegram API to receive instant notifications for vulnerability detection.
-   
-   - For Getting Instant Telegram Notification
-     - ```bash
-          crlfi --chatid <YourTelegramChatID>
-       ```
-   - Open your telegram and search for [`@CappricioSecuritiesTools_bot`](https://web.telegram.org/k/#@CappricioSecuritiesTools_bot) and click start
+ 
 
-## Usages 
-3. This tool has multiple use cases.
-   
-   - To Check Single URL
-     - ```bash
-          crlfi -u http://example.com 
-        ```
-   - To Check the List of URL 
-      - ```bash
-          crlfi -i urls.txt 
-        ```
-   - Save output into TXT file
-      - ```bash
-          crlfi -i urls.txt -o out.txt
-        ```
-   - Want to Learn about [`Our Tools and Bugs`](https://blogs.cappriciosec.com/)? Then Type Below command
-      - ```bash
-          crlfi -b
-        ```
-     
 <p align="center">
   <b>🚨 Disclaimer</b>
   
